@@ -1,4 +1,4 @@
-const API = "https://script.google.com/macros/s/AKfycbyaHZadQR6eXh25Nzl0au8Cg_Rh5Acg8-dTyNM2isf1c7doNNJ5ShNipyhTAaiNn3EIvg/exec";
+const API = "https://script.google.com/macros/s/AKfycbzNtQZV4cyQ1FOugioXWp0lj2KpFBxD6NhmE-kXTD3ASmyEPAQrkDYtod0isZUbZXoytQ/exec";
 const page = location.pathname;
 
 if (page.endsWith("/") || page.includes("index")) {
@@ -51,4 +51,5 @@ function sendReview() {
     })
   }).then(() => location.reload());
 }
+
 
