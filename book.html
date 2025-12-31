@@ -1,9 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
 <div id="book"></div>
 
-<textarea id="review"></textarea>
+<h3>Оставить отзыв</h3>
+<input id="author" placeholder="Ваше имя">
 <select id="rating">
-  <option>1</option><option>2</option>...<option>10</option>
+  <option value="1">1</option>
+  <option value="5">5</option>
+  <option value="10">10</option>
 </select>
-<button onclick="sendReview()">Отправить</button>
+<textarea id="text" placeholder="Ваш отзыв"></textarea>
+<button onclick="sendReview()">Опубликовать</button>
+
+<h3>Отзывы</h3>
+<div id="reviews"></div>
 
 <script src="script.js"></script>
+</body>
+</html>
