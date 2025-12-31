@@ -1,0 +1,8 @@
+.book {
+  width: 150px;
+  display: inline-block;
+  margin: 10px;
+}
+.unread {
+  filter: grayscale(100%);
+}
